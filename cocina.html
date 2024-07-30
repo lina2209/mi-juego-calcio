@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcio en la Cocina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cocina.css">
+</head>
+<body>
+    <header>
+        <h1>Calcio en la Cocina</h1>
+        <p>Prepara recetas ricas en calcio y aprende mientras cocinas.</p>
+    </header>
+    <main>
+        <section>
+            <div id="recipe-list">
+                <div class="recipe-item" onclick="selectRecipe('Batido de Leche y Plátano', 300)">
+                    Batido de Leche y Plátano (300 mg de calcio)
+                </div>
+                <div class="recipe-item" onclick="selectRecipe('Ensalada de Espinacas y Queso', 250)">
+                    Ensalada de Espinacas y Queso (250 mg de calcio)
+                </div>
+                <div class="recipe-item" onclick="selectRecipe('Sardinas al Horno', 400)">
+                    Sardinas al Horno (400 mg de calcio)
+                </div>
+                <!-- Añadir más recetas aquí -->
+            </div>
+            <div id="selected-recipe"></div>
+        </section>
+    </main>
+    <script src="cocina.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+#puzzle {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 420px;
+}
+.piece {
+    width: 100px;
+    height: 100px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

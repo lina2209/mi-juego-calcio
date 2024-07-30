@@ -1,0 +1,34 @@
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+#food-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.food-item {
+    background-color: #4682b4;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.food-item:hover {
+    background-color: #315f86;
+}
+
+#selected-foods {
+    margin-top: 20px;
+}
+
+#total-calcium {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.2em;
+}

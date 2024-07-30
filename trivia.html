@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia de Calcio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="trivia.css">
+</head>
+<body>
+    <header>
+        <h1>Trivia de Calcio</h1>
+        <p>Responde preguntas sobre el calcio y sus beneficios.</p>
+    </header>
+    <main>
+        <section id="quiz">
+            <div class="question" id="question">¿Qué es el calcio?</div>
+            <div class="options">
+                <div class="option" onclick="checkAnswer(this, 0)">Un mineral esencial para el cuerpo</div>
+                <div class="option" onclick="checkAnswer(this, 1)">Un tipo de vitamina</div>
+                <div class="option" onclick="checkAnswer(this, 2)">Una proteína</div>
+                <div class="option" onclick="checkAnswer(this, 3)">Una grasa</div>
+            </div>
+        </section>
+        <div id="result"></div>
+    </main>
+    <script src="trivia.js"></script>
+</body>
+</html>

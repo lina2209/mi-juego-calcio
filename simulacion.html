@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Nutrición</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="simulacion.css">
+</head>
+<body>
+    <header>
+        <h1>Simulación de Nutrición</h1>
+        <p>Planifica una dieta diaria equilibrada en calcio.</p>
+    </header>
+    <main>
+        <section>
+            <div id="food-list">
+                <div class="food-item" onclick="addFood('Leche', 300)">Leche (300 mg de calcio)</div>
+                <div class="food-item" onclick="addFood('Yogur', 200)">Yogur (200 mg de calcio)</div>
+                <div class="food-item" onclick="addFood('Queso', 250)">Queso (250 mg de calcio)</div>
+                <div class="food-item" onclick="addFood('Brócoli', 50)">Brócoli (50 mg de calcio)</div>
+                <div class="food-item" onclick="addFood('Sardinas', 150)">Sardinas (150 mg de calcio)</div>
+                <!-- Añadir más alimentos aquí -->
+            </div>
+            <div id="selected-foods"></div>
+            <div id="total-calcium">Total Calcio: 0 mg</div>
+        </section>
+    </main>
+    <script src="simulacion.js"></script>
+</body>
+</html>
